@@ -1,0 +1,16 @@
+F:\repoc#\lab1\lab1\bin\Debug\net5.0\lab1.exe
+F:\repoc#\lab1\lab1\bin\Debug\net5.0\lab1.deps.json
+F:\repoc#\lab1\lab1\bin\Debug\net5.0\lab1.runtimeconfig.json
+F:\repoc#\lab1\lab1\bin\Debug\net5.0\lab1.runtimeconfig.dev.json
+F:\repoc#\lab1\lab1\bin\Debug\net5.0\lab1.dll
+F:\repoc#\lab1\lab1\bin\Debug\net5.0\ref\lab1.dll
+F:\repoc#\lab1\lab1\bin\Debug\net5.0\lab1.pdb
+F:\repoc#\lab1\lab1\obj\Debug\net5.0\lab1.csproj.AssemblyReference.cache
+F:\repoc#\lab1\lab1\obj\Debug\net5.0\lab1.GeneratedMSBuildEditorConfig.editorconfig
+F:\repoc#\lab1\lab1\obj\Debug\net5.0\lab1.AssemblyInfoInputs.cache
+F:\repoc#\lab1\lab1\obj\Debug\net5.0\lab1.AssemblyInfo.cs
+F:\repoc#\lab1\lab1\obj\Debug\net5.0\lab1.csproj.CoreCompileInputs.cache
+F:\repoc#\lab1\lab1\obj\Debug\net5.0\lab1.dll
+F:\repoc#\lab1\lab1\obj\Debug\net5.0\ref\lab1.dll
+F:\repoc#\lab1\lab1\obj\Debug\net5.0\lab1.pdb
+F:\repoc#\lab1\lab1\obj\Debug\net5.0\lab1.genruntimeconfig.cache
