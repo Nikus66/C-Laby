@@ -1,5 +1,6 @@
 ﻿using System;
 using Lab1.BuildingsWrapper;
+using Lab1.CommercialBuildings;
 using Lab1.Constructions;
 using Lab1.Constructions.Models;
 using Lab1.IndustrialBuildings;
@@ -45,6 +46,18 @@ namespace Lab1
 
             Console.WriteLine(wrapper1.GetWrapperSquareCost());
             Console.WriteLine(wrapper2.GetWrapperSquareCost());
+
+            CommercialBuilding commercialBuilding = new CommercialBuilding(
+            height: 10.0f,
+            width: 20.0f,
+            entrances: 2,
+            humanCapacity: 100,
+            buildMaterial: TypeOfMaterial.Concrete,
+            businessType: "Retail"
+            );
+
+            commercialBuilding.OpenBusiness();
+            wrapper1.DisplayConstructionInfoFromWrapper();
         }
     }
 }

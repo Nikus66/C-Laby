@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Lab1.Constructions.Models;
+using Lab1.Interfaces;
 
 namespace Lab1.Constructions
 {
-    internal class Construction
+    internal class Construction : ISquareCost, IConstructionInfo
     {
         public Construction(float height, float width, int entrances, int humanCapacity, TypeOfMaterial buildMaterial)
         {
@@ -53,6 +54,12 @@ namespace Lab1.Constructions
             }
         }
 
+        public double CalculateSquareCost()
+        {
+            double squareArea = Height * Width;
+            double costPerSquareUnit = 10.0; 
+            return squareArea * costPerSquareUnit;
+        }
         public double GetSquareCost()
         {
             if (BuildMaterial == TypeOfMaterial.Brick)
@@ -68,6 +75,17 @@ namespace Lab1.Constructions
                 return Width * Height * 0.9 * 0.78;
             }
             return 0;
+        }
+
+        public void DisplayCostDetails()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void DisplayConstructionInfo()
+        {
+            Console.WriteLine($"Construction information for the building:");
+            Console.WriteLine($"Height: {Height}, Width: {Width}, Entrances: {Entrances}, Human Capacity: {HumanCapacity}, Build Material: {BuildMaterial}");
         }
     }
 }
